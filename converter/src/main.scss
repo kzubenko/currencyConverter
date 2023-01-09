@@ -1,0 +1,33 @@
+.app {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.converter-block {
+  border-radius: .3em;
+  margin: 0 auto;
+  background-color: #C0C0C0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.input {
+  border: 1px solid darkgrey;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 10em;
+}
+
+select {
+  margin-left: .5rem;
+
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: .25rem;
+}
